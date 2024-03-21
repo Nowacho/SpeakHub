@@ -1,6 +1,6 @@
 # SpeakHub Old Version
 
-HubCore is a lightweight platform designed to manage and coordinate various services and resources within a data center environment. It offers a range of features to streamline administrative tasks and enhance user experience.
+This version of SpeakHub, is an old version before it was sold, it is currently obsolete and with multiple bugs, other than that, the HubCore runs perfect.
 
 ## Features
 
@@ -40,6 +40,8 @@ After installing HubCore, leverage its features to manage and enhance your serve
 - Customizing various elements through the editor system.
 - Managing chat functionality and Lunar NameTags.
 
-## License
-
-HubCore is distributed under the [license](https://www.apache.org/licenses/LICENSE-2.0). Refer to the LICENSE file for more information.
+# Dependency
+- Spigot 1.8 - 1.20x
+- PlaceholderAPI
+- ProtocolLib
+- Vault
