@@ -1,0 +1,127 @@
+#  _   _                _
+# | | | | ___  __ _  __| |___
+# | |_| |/ _ \/ _` |/ _` / __|
+# |  _  |  __/ (_| | (_| \__ \
+# |_| |_|\___|\__,_|\__,_|___/
+MENU:
+  TITLE: "&7Heads Menu"
+  INVENTORY: 36
+  GLASS_PANEL:
+    ENABLED: true
+    ID: 2
+  REMOVE-HEAD:
+    DISPLAYNAME: "&cRemove head!"
+    LORE:
+      - "&5&m-----&d&m&l---------------&5&m-----"
+      - "&7Right click to remove heads"
+      - "&5&m-----&d&m&l---------------&5&m-----"
+    MATERIAL: FEATHER
+    DATA: 0
+    SLOT: 35
+  BLOCK-HEADS:
+    DIAMOND:
+      DISPLAYNAME: "&b&lDiamond Head"
+      LORE:
+        - "&5&m-----&d&m&l---------------&5&m-----"
+        - "&7Right click to select &b&lDiamond Head"
+        - "&5&m-----&d&m&l---------------&5&m-----"
+      PERMISSION: "speakhub.head.diamond"
+      MATERIAL: DIAMOND_BLOCK
+      DATA: 0
+      SLOT: 11
+    GLASS:
+      DISPLAYNAME: "&6&lGlass Head"
+      LORE:
+        - "&5&m-----&d&m&l---------------&5&m-----"
+        - "&7Right click to select &6&lNote Block Head"
+        - "&5&m-----&d&m&l---------------&5&m-----"
+      PERMISSION: "speakhub.head.glass"
+      MATERIAL: GLASS
+      DATA: 0
+      SLOT: 12
+    DISPENSER:
+      DISPLAYNAME: "&7&lDispenser Head"
+      LORE:
+        - "&5&m-----&d&m&l---------------&5&m-----"
+        - "&7Right click to select &4&lDispenser Head"
+        - "&5&m-----&d&m&l---------------&5&m-----"
+      PERMISSION: "speakhub.head.dispenser"
+      MATERIAL: DISPENSER
+      SLOT: 13
+      DATA: 0
+    TNT:
+      DISPLAYNAME: "&4&lTNT Head"
+      LORE:
+        - "&5&m-----&d&m&l---------------&5&m-----"
+        - "&7Right click to select &4&lDispenser Head"
+        - "&5&m-----&d&m&l---------------&5&m-----"
+      PERMISSION: "speakhub.head.tnt"
+      MATERIAL: TNT
+      SLOT: 14
+      DATA: 0
+    PUMPKIN:
+      DISPLAYNAME: "&6&lPumpkin Head"
+      LORE:
+        - "&5&m-----&d&m&l---------------&5&m-----"
+        - "&7Right click to select &6&lPumpkin Head"
+        - "&5&m-----&d&m&l---------------&5&m-----"
+      PERMISSION: "speakhub.head.pumpkin"
+      MATERIAL: PUMPKIN
+      SLOT: 15
+      DATA: 0
+  PLAYER-HEADS:
+    YoSoyByProxx:
+      DISPLAYNAME: "&c&lYoSoyByProxx Head"
+      LORE:
+        - "&5&m-----&d&m&l---------------&5&m-----"
+        - "&7Right click to select &c&lYoSoyByProxx Head"
+        - "&5&m-----&d&m&l---------------&5&m-----"
+      PERMISSION: "speakhub.head.yosoybyproxx"
+      MATERIAL: SKULL_ITEM
+      DATA: 3
+      SLOT: 20
+      PLAYER-NAME: "YoSoyByProxx" # Only works with premium players
+    TrollFace:
+      DISPLAYNAME: "&f&lTrollFace Head"
+      LORE:
+        - "&5&m-----&d&m&l---------------&5&m-----"
+        - "&7Right click to select &f&lTrollFace Head"
+        - "&5&m-----&d&m&l---------------&5&m-----"
+      PERMISSION: "speakhub.head.troll"
+      MATERIAL: SKULL_ITEM
+      SLOT: 21
+      DATA: 3
+      PLAYER-NAME: "areyoumycpu" # Only works with premium players
+    Cow:
+      DISPLAYNAME: "&e&lCow Head"
+      LORE:
+        - "&5&m-----&d&m&l---------------&5&m-----"
+        - "&7Right click to select &e&lCow Head"
+        - "&5&m-----&d&m&l---------------&5&m-----"
+      PERMISSION: "speakhub.head.cow"
+      MATERIAL: SKULL_ITEM
+      DATA: 3
+      SLOT: 22
+      PLAYER-NAME: "Tres" # Only works with premium players
+    AmongUs:
+      DISPLAYNAME: "&5&lAmongUs Head"
+      LORE:
+        - "&5&m-----&d&m&l---------------&5&m-----"
+        - "&7Right click to select &c&lAmongUs Head"
+        - "&5&m-----&d&m&l---------------&5&m-----"
+      PERMISSION: "speakhub.head.amongus"
+      MATERIAL: SKULL_ITEM
+      DATA: 3
+      SLOT: 23
+      PLAYER-NAME: "JordiCatala" # Only works with premium players
+    Creeper:
+      DISPLAYNAME: "&2&lCreeper Head"
+      LORE:
+        - "&5&m-----&d&m&l---------------&5&m-----"
+        - "&7Right click to select &c&lCreeper Head"
+        - "&5&m-----&d&m&l---------------&5&m-----"
+      PERMISSION: "speakhub.head.creeper"
+      MATERIAL: SKULL_ITEM
+      DATA: 3
+      SLOT: 24
+      PLAYER-NAME: "JasperDG" # Only works with premium players

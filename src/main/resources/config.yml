@@ -1,0 +1,137 @@
+#   ____                   _      _   _       _
+# / ___| _ __   ___  __ _| | __ | | | |_   _| |__
+# \___ \| '_ \ / _ \/ _` | |/ / | |_| | | | | '_ \
+#  ___) | |_) |  __/ (_| |   <  |  _  | |_| | |_) |
+# |____/| .__/ \___|\__,_|_|\_\ |_| |_|\__,_|_.__/
+#       |_|
+# [Hardling Development]
+# Author: YoSoyByProxx#1026
+# Version: 1.1.6-SNAPSHOT
+# Discord: https://discord.hardling.us
+
+# General Settings
+SETTINGS:
+  QUEUE: "NONE" # Queue System Selection: SPEAKQUEUE / EZQUEUE / PORTAL / AJQUEUE / NONE
+  BORDER: # World Border
+    ENABLED: true
+    SIZE: 350 # 350 x 350
+  PLAYER: # Player Events
+    TELEPORT-ON-JOIN-SPAWN: true
+    FALL-DAMAGE: true
+    FIRE-DAMAGE: true
+    INTERACT: true
+    DROWNING: true
+    HUNGER: true
+    FISH: true
+  MISC: # World Events
+    OPTIMIZE_WORLD: true
+    ENTITY-EXPLODE: true
+    DEATH-MESSAGE: true
+    LEAVES-DECAY: true
+    ENTITY-SPAWN: true
+    MOBS-SPAWN: true
+    VOID-DEATH: true
+    WEATHER: true
+  ITEMS: # Items Events
+    PICKUP: true
+    DROP: true
+  BLOCK: # Block Events
+    FIRE-SPREAD: true
+    BREAK: true
+    PLACE: true
+    FADE: true
+    BURN: true
+    FORM: true
+
+# Chat Configuration
+CHAT:
+  COMMANDS: # You can configure the reply message in Lang.yml
+    ENABLED: true
+    DISABLED:
+      - "about"
+      - "plugins"
+      - "pl"
+      - "?"
+      - "help"
+      - "bukkit"
+  MESSAGES: # You can configure the reply message in Lang.yml
+    ENABLED: true
+    DISABLED:
+      - "ez"
+      - "nigger"
+      - "gay"
+      - "noob"
+      - "cheater"
+      - "fuck"
+  FORMAT:
+    ENABLED: true
+    DELAY: 4
+    CHAT: "%rank% %name%&7: &f%message%"
+    BROADCAST: "&c&lAlert &4» &f%message%"
+
+# Only works if in SPEAKQUEUE mode
+QUEUE:
+  SERVERS:
+    KITMAP:
+      NAME: "Kits"
+    HCF:
+      NAME: "hcf"
+    PRACTICE:
+      NAME: "pratice"
+  DELAY: 5 # How many seconds in between filtering the players into the desired server.
+  MESSAGE-DELAY: 15 # Seconds
+  PRIORITIES: 10 # It works to create priorities from 1 to as above this is to set example permissions: SpeakHub.queue.<priority>
+
+# Only for Lunar Client Api
+LUNAR-API:
+  ENABLED: true
+  JOIN-PLAYER:
+    ENABLED: true
+    TIME: 8 # MilliSeconds
+    TITLE:
+      MESSAGE: "&d&lHardling Network"
+    SUBTITLE:
+      MESSAGE: "&fThanks For Playing"
+  NAME-TAGS:
+    ENABLED: true
+    TAGS:
+      STAFF:
+        TAG:
+          - "&9&k|&b&lStaff&9&k|"
+          - "%rank%"
+          - "%name%"
+      PVP-MODE:
+        TAG:
+          - "&4&k|&c&lPvP-Mode&4&k|"
+          - "%rank%"
+          - "%name%"
+      QUEUE:
+        TAG:
+          - "&d&k|&4&lQueue&d&k|"
+          - "&dPosition&7: &f%queue-position%&7/&f%queue-size%"
+          - "%name%"
+      DEFAULT:
+        TAG:
+          - "%rank%"
+          - "%name%"
+
+# Launch Pad Config
+LAUNCH-PAD:
+  ENABLED: true
+  MATERIAL: GOLD_PLATE
+  SOUND-ENABLED: true
+  SOUND: FIREWORK_LARGE_BLAST
+  JUMP:
+    MULTIPLY: 2.0
+    HEIGHT: 1.5
+
+# Socials Network
+SOCIAL:
+  DISCORD: "discord.hardling.us"
+  STORE: "store.hardling.us"
+  TEAMSPEAK: "ts.hardling.us"
+  TWITTER: "twitter.com/YoSoyByProxx"
+  WEBSITE: "www.hardling.us"
+
+# Saving Spawn Coordinates
+COORDINATES: # FORMAT: WOLRD, X, Y, Z, YAW, PITCH

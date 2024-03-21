@@ -1,0 +1,279 @@
+# Placeholders Heads:
+# %player_head%, %discord_head%, %twitter_head%, %clock%, %ping%, %chest%, %dirt%, %tv%, %crown%, %castle%, %compass%
+# %facebook%, %youtube%, %store_head%, %furnace%, %chest_gold%, %ender_chest%, %ender_pearl%, %winrar%, %waring%
+# %earth%, %green%, %blue%, %dark_blue%, %dark_aqua%, %purple%, %pink%, %gray%, %red%, %yellow%, %dark_green%, %dark_red%
+# %gold%, %aqua%, %white%, %dark_gray%, %black%, %yosoybyproxx%, %teamspeak_head%, %monitor%, %beacon%, %statistic%, %sword%
+# %ghost%, %potion%
+
+# Placeholders:
+# %arrow%, %placeholder:date%, %placeholder:time%, %players_online%, %website%, %discord%, %teamspeak%, %twitter%, %store%
+# %rank%, %rank_suffix%, %slots%, %ping%, %player%, %online%, %slots%, %ping%, %bars%, %server%, %position%, %inqueue%
+TABLIST:
+  ENABLED: true
+  BARS: "&7&m------------------------" # %bars%
+  ARROW: "»" # %arrow%
+  HEADER:
+    STATIC:
+      NORMAL: "&d&lSpeakHub Network"
+    ANIMATED:
+      ENABLED: true
+      INTERVAL: 2.5
+      ANIMATION:
+        - "&d&lSpeakHub Network"
+        - "&7&lHardling Development"
+        - "&3&lplay.SpeakHub.com"
+  FOOTER:
+    STATIC:
+      NORMAL: "&fPurchase tags, ranks, kits in &d&nstore.hardling.us"
+    ANIMATED:
+      ENABLED: true
+      INTERVAL: 2.5
+      ANIMATION:
+        - "&fPurchase tags, ranks, kits in &d&nstore.hardling.us"
+        - "Join our &9Discord &fto be updated about our server &f&ndsc.gg/hardling-support"
+        - "&fFollow us on &bTwitter &fas &f&ntwitter.com/YoSoyByProxx"
+  # TabList
+  LEFT:
+    1:
+      text: "%bars%"
+      head: "%gold%"
+    2:
+      text: ""
+      head: ""
+    3:
+      text: ""
+      head: ""
+    4:
+      text: "&9Discord"
+      head: "%discord_head%"
+    5:
+      text: "&f%discord%"
+      head: ""
+    6:
+      text: ""
+      head: ""
+    7:
+      text: "&bTwitter"
+      head: "%twitter_head%"
+    8:
+      text: "&f%twitter%"
+      head: ""
+    9:
+      text: ""
+      head: ""
+    10:
+      text: "&aStore"
+      head: "%store_head%"
+    11:
+      text: "&f%store%"
+      head: ""
+    12:
+      text: ""
+      head: ""
+    13:
+      text: "&3TeamSpeak"
+      head: "%beacon%"
+    14:
+      text: "%teamspeak%"
+      head: ""
+    15:
+      text: ""
+      head: ""
+    16:
+      text: "&7Website"
+      head: "%earth%"
+    17:
+      text: "%website%"
+      head: ""
+    18:
+      text: ""
+      head: ""
+    19:
+      text: ""
+      head: ""
+    20:
+      text: "%bars%"
+      head: "%gold%"
+  CENTER:
+    1:
+      text: "%bars%"
+      head: "%gold%"
+    2:
+      text: "&5&lModalities"
+      head: "%compass%"
+    3:
+      text: ""
+      head: ""
+    4:
+      text: "&5&lPractice"
+      head: "%sword%"
+    5:
+      text: "&dOnline&7: &f%pinger_players_localhost:2001%"
+      head: ""
+    6:
+      text: "&dStatus&7: &f%pinger_isonline_localhost:2001%"
+      head: ""
+    7:
+      text: ""
+      head: ""
+    8:
+      text: ""
+      head: ""
+    9:
+      text: ""
+      head: ""
+    10:
+      text: ""
+      head: ""
+    11:
+      text: ""
+      head: ""
+    12:
+      text: ""
+      head: ""
+    13:
+      text: "&5&lKitmap"
+      head: "%ghost%"
+    14:
+      text: "&dOnline&7: &f%pinger_players_localhost:2002%"
+      head: ""
+    15:
+      text: "&dStatus&7: &f%pinger_isonline_localhost:2002%"
+      head: ""
+    16:
+      text: ""
+      head: ""
+    17:
+      text: ""
+      head: ""
+    18:
+      text: ""
+      head: ""
+    19:
+      text: ""
+      head: ""
+    20:
+      text: "%bars%"
+      head: "%gold%"
+  RIGHT:
+    1:
+      text: "%bars%"
+      head: "%gold%"
+    2:
+      text: ""
+      head: ""
+    3:
+      text: ""
+      head: ""
+    4:
+      text: "&5&lHCFaction"
+      head: "%castle%"
+    5:
+      text: "&dOnline&7: &f%pinger_players_localhost:2003%"
+      head: ""
+    6:
+      text: "&dStatus&7: &f%pinger_isonline_localhost:2003%"
+      head: ""
+    7:
+      text: ""
+      head: ""
+    8:
+      text: ""
+      head: ""
+    9:
+      text: ""
+      head: ""
+    10:
+      text: ""
+      head: ""
+    11:
+      text: ""
+      head: ""
+    12:
+      text: ""
+      head: ""
+    13:
+      text: "&5&lQueue System"
+      head: "%clock%"
+    14:
+      text: "&dServer&7: &f%queue-server%"
+      head: ""
+    15:
+      text: "&dPosition&7: &f%queue-position%&7/&f%queue-size%"
+      head: ""
+    16:
+      text: ""
+      head: ""
+    17:
+      text: ""
+      head: ""
+    18:
+      text: ""
+      head: ""
+    19:
+      text: ""
+      head: ""
+    20:
+      text: "%bars%"
+      head: "%gold%"
+  EXTERNAL-RIGHT:
+    1:
+      text: "%bars%"
+      head: "%gold%"
+    2:
+      text: ""
+      head: ""
+    3:
+      text: ""
+      head: ""
+    4:
+      text: ""
+      head: ""
+    5:
+      text: ""
+      head: ""
+    6:
+      text: ""
+      head: ""
+    7:
+      text: ""
+      head: ""
+    8:
+      text: "&5&lYour Information"
+      head: "%player%"
+    9:
+      text: " &7%arrow% &dName&7: &f%player% "
+      head: ""
+    10:
+      text: " &7%arrow% &dRank&7: %rank% "
+      head: ""
+    11:
+      text: " &7%arrow% &dPing&7: %player_colored_ping%"
+      head: ""
+    12:
+      text: " &7%arrow% &dHub&7: &f1#"
+      head: ""
+    13:
+      text: ""
+      head: ""
+    14:
+      text: ""
+      head: ""
+    15:
+      text: ""
+      head: ""
+    16:
+      text: ""
+      head: ""
+    17:
+      text: ""
+      head: ""
+    18:
+      text: ""
+      head: ""
+    19:
+      text: ""
+      head: ""
+    20:
+      text: "%bars%"
+      head: "%gold%"

@@ -1,0 +1,14 @@
+# EnderButt Config
+ENDERBUTT:
+  ENABLED: true
+  MATERIAL: ENDER_PEARL
+  ENCHANTED: true
+  SOUND-ENABLED: true
+  SOUND: PORTAL
+  SLOT: 5
+  DATA: 0
+  DISPLAYNAME: "&5❃ &d&lEnderPearl &7&o(Right-Click)"
+  LORE:
+    - "&5&m-----&d&m&l-------------------------&5&m-----"
+    - "&fExplore the map in fast way"
+    - "&5&m-----&d&m&l-------------------------&5&m-----"

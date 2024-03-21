@@ -1,0 +1,72 @@
+# Server Selector Config
+HUB-SELECTOR:
+  ENABLED: true
+  DISPLAYNAME: "&4☯ &c&lHub-Selector &7&o(Right-Click)"
+  LORE:
+    - "&5&m-----&d&m&l-------------------------&5&m-----"
+    - "&fRight-click to open the hub menu!"
+    - "&5&m-----&d&m&l-------------------------&5&m-----"
+  MATERIAL: PAPER
+  DATA: 0
+  SLOT: 2
+  ENCHANTED: true
+  SOUND_ENABLED: true
+  SOUND: DOOR_OPEN
+  INVENTORY:
+    TITLE: "&cHub Selector"
+    SLOTS: 9
+    GLASS_PANEL:
+      ENABLED: true
+      ID: 2
+  HUBS:
+    "1":
+      DISPLAYNAME: "&d&lHub-#1"
+      LORE:
+        - "&7» &3Online-Players&7: &f%pinger_players_localhost:25568%"
+        - "&7» &3Status&7: &f%pinger_isonline_localhost:25568%"
+        - ""
+        - "&aClick to enter the hub&7..."
+      ENCHANTED: true
+      MATERIAL: REDSTONE_BLOCK
+      DATA: 0
+      SLOT: 0
+      MESSAGE: "&aSent you to the server &d&lHub-#1"
+      BUNGEE:
+        ENABLED: false
+        SERVER: "hub-1"
+      COMMANDS:
+        - "[player] play hub-1"
+    "2":
+      DISPLAYNAME: "&d&lHub-#2"
+      LORE:
+        - "&7» &3Online-Players&7: &f%pinger_players_localhost:25569%"
+        - "&7» &3Status&7: &f%pinger_isonline_localhost:25569%"
+        - ""
+        - "&aClick to enter the hub&7..."
+      ENCHANTED: true
+      MATERIAL: QUARTZ_BLOCK
+      DATA: 0
+      SLOT: 1
+      MESSAGE: "&aSent you to the server &d&lHub-#2"
+      BUNGEE:
+        ENABLED: false
+        SERVER: "hub-2"
+      COMMANDS:
+        - "[player] play hub-2"
+    "3":
+      DISPLAYNAME: "&d&lHub-#3"
+      LORE:
+        - "&7» &3Online-Players&7: &f%pinger_players_localhost:25570%"
+        - "&7» &3Status&7: &f%pinger_isonline_localhost:25570%"
+        - ""
+        - "&aClick to enter the hub&7..."
+      ENCHANTED: true
+      MATERIAL: QUARTZ_BLOCK
+      DATA: 0
+      SLOT: 2
+      MESSAGE: "&aSent you to the server &d&lHub-#3"
+      BUNGEE:
+        ENABLED: false
+        SERVER: "hub-3"
+      COMMANDS:
+        - "[player] play hub-3"

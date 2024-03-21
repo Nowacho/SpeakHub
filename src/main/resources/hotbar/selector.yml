@@ -1,0 +1,87 @@
+# Server Selector Config
+SELECTOR:
+  ENABLED: true
+  DISPLAYNAME: "&e✪ &6&lServer-Selector &7&o(Right-Click)"
+  LORE:
+    - "&5&m-----&d&m&l-------------------------&5&m-----"
+    - "&fRight-click to open the Selector menu!"
+    - "&5&m-----&d&m&l-------------------------&5&m-----"
+  ENCHANTED: true
+  SOUND_ENABLED: true
+  SOUND: CHEST_OPEN
+  MATERIAL: WATCH
+  DATA: 0
+  SLOT: 1
+  INVENTORY:
+    TITLE: "&6Sever Selector"
+    SLOTS: 27
+    GLASS_PANEL:
+      ENABLED: true
+      ID: 2
+  SERVERS:
+    HCF:
+      DISPLAYNAME: "&d&lHCF"
+      LORE:
+        - ""
+        - "&7HCF based modality, Features as"
+        - "&7Custom enchants, gkits, partner items"
+        - "&7Weekly updates and recently"
+        - ""
+        - "&7» &d&lOnline-Players&7: &f%pinger_players_localhost:2003%"
+        - "&7» &d&lStatus&7: &f%pinger_isonline_localhost:2003%"
+        - ""
+        - "&aClick to queue&7..."
+      ENCHANTED: true
+      MATERIAL: FISHING_ROD
+      DATA: 0
+      SLOT: 11
+      MESSAGE: "&aSent you to the server &d&lHCF&7!"
+      BUNGEE:
+        ENABLED: false
+        SERVER: "hcf"
+      COMMANDS:
+        - "[player] play hcf"
+    PRACTICE:
+      DISPLAYNAME: "&3&lPractice"
+      LORE:
+        - ""
+        - "&7Duel opponents in 1v1 or team"
+        - "&7Fight, or work on your aim by fighting"
+        - "&7against bots with multiple difficulties."
+        - ""
+        - "&7» &d&lOnline-Players&7: &f%pinger_players_localhost:2004%"
+        - "&7» &d&lStatus&7: &f%pinger_isonline_localhost:2004%"
+        - ""
+        - "&aClick to queue&7..."
+      ENCHANTED: true
+      MATERIAL: GOLDEN_APPLE
+      DATA: 0
+      SLOT: 15
+      MESSAGE: "&aSent you to the server &3&lPractice&7!"
+      BUNGEE:
+        ENABLED: false
+        SERVER: "practice"
+      COMMANDS:
+        - "[player] play practice"
+    KITS:
+      DISPLAYNAME: "&b&lKits"
+      LORE:
+        - ""
+        - "&7Kits allows you to pratice your skills"
+        - "&7Aim for spot on the leaderboards"
+        - "&7And have your own claim and base"
+        - ""
+        - "&7» &d&lOnline-Players&7: &f%pinger_players_localhost:2002%"
+        - "&7» &d&lStatus&7: &f%pinger_isonline_localhost:2002%"
+        - ""
+        - "&aClick to queue&7..."
+      ENCHANTED: true
+      MATERIAL: ENDER_CHEST
+      DATA: 0
+      SLOT: 13
+      MESSAGE: "&aSent you to the server &b&lKitmap&7!"
+      BUNGEE:
+        ENABLED: false
+        SERVER: "kitmap"
+      COMMANDS:
+        - "[player] play kitmap"

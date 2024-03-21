@@ -1,0 +1,40 @@
+#  _____             _     _          _
+# | ____|_ __   __ _| |__ | | ___  __| |
+# |  _| | '_ \ / _` | '_ \| |/ _ \/ _` |
+# | |___| | | | (_| | |_) | |  __/ (_| |
+# |_____|_| |_|\__,_|_.__/|_|\___|\__,_|
+HIDE-SHOW:
+  ENABLED: true
+  SLOT: 6
+#  ____  _
+# / ___|| |__   _____      __
+# \___ \| '_ \ / _ \ \ /\ / /
+#  ___) | | | | (_) \ V  V /
+# |____/|_| |_|\___/ \_/\_/
+SHOW-PLAYER:
+  ENCHANTED: true
+  MATERIAL: INK_SACK
+  SOUND-ENABLED: true
+  SOUND: CAT_HIT
+  DATA: 8
+  DISPLAYNAME: "&3&l★ &e&lShow Players &7&o(Right-Click)"
+  LORE:
+    - "&5&m-----&d&m&l-------------------------&5&m-----"
+    - "&6* &7Right click to remove players"
+    - "&5&m-----&d&m&l-------------------------&5&m-----"
+#  _  _  _     _
+# | | | (_) __| | ___
+# | |_| | |/ _` |/ _ \
+# |  _  | | (_| |  __/
+# |_| |_|_|\__,_|\___|
+HIDE-PLAYER:
+  ENCHANTED: true
+  MATERIAL: INK_SACK
+  SOUND-ENABLED: true
+  SOUND: CAT_HIT
+  DATA: 10
+  DISPLAYNAME: "&4&l★ &c&lHide Players &7&o(Right-Click) "
+  LORE:
+    - "&5&m-----&d&m&l-------------------------&5&m-----"
+    - "&6* &7Right click to reveal the players"
+    - "&5&m-----&d&m&l-------------------------&5&m-----"

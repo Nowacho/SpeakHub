@@ -1,0 +1,10 @@
+name: SpeakHub
+version: 1.1.6-SNAPSHOT
+main: hardling.us.hub.SpeakHub
+authors: ["YoSoyByProxx"]
+description: Optimized Hub Core, with more than 20+ essential commands for control, mode selector, hub selector, pvp mode, configurable cosmetics, compatible with queue systems and rank system, custom variables, animated events (Tablist, Scoreboard) and with FileUtil good licensing system.
+
+softdepend:
+  - Vault
+  - PlaceholderAPI
+  - ProtocolLib

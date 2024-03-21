@@ -1,0 +1,123 @@
+# PvP Mode Config
+PVP:
+  ENABLED: true
+  DISPLAYNAME: "&2&l✰ &3&lPvP Mode"
+  LORE:
+    - "&5&m-----&d&m&l-------------------------&5&m-----"
+    - "&7Right-click to join to PvP Mode!"
+    - "&7/LeavePvP to exit PvP Mode "
+    - "&5&m-----&d&m&l-------------------------&5&m-----"
+  MATERIAL: BLAZE_POWDER
+  DATA: 0
+  SLOT: 9
+  ENCHANTED: true
+  SOUND-ENABLED: true
+  SOUND: EXPLODE
+
+# Kit PvP Mode Config
+KIT:
+  INVENTORY:
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DAMAGE_ALL: 2
+          DURABILITY: 2
+    - ==: org.bukkit.inventory.ItemStack
+      type: ENDER_PEARL
+      amount: 16
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: GOLDEN_APPLE
+      amount: 8
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - null
+  ARMOR:
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+          DURABILITY: 2
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+          DURABILITY: 2
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+          DURABILITY: 2
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+          DURABILITY: 2

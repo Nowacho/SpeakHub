@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>hardling.us.hub</groupId>
+    <artifactId>SpeakHub</artifactId>
+    <version>1.1.6-SNAPSHOT</version>
+
+    <name>SpeakHub</name>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <version>3.2.2</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <filters>
+                                <filter>
+                                    <artifact>*:*</artifact>
+                                    <excludes>
+                                        <exclude>META-INF/</exclude>
+                                    </excludes>
+                                </filter>
+                            </filters>
+                            <finalName>SpeakHub-1.0.-SNAPSHOT</finalName>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>8</source>
+                    <target>8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <repositories>
+        <!-- Spigot -->
+        <repository>
+            <id>spigotmc-repo</id>
+            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+        </repository>
+        <!-- Dmulloy2 -->
+        <repository>
+            <id>dmulloy2-repo</id>
+            <url>https://repo.dmulloy2.net/repository/public/</url>
+        </repository>
+        <!-- Jitpack -->
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io/</url>
+        </repository>
+        <!-- PlaceholderApi -->
+        <repository>
+            <id>placeholderapi</id>
+            <url>http://repo.extendedclip.com/content/repositories/placeholderapi/</url>
+        </repository>
+        <!-- ViaVersion -->
+        <repository>
+            <id>viaversion-repo</id>
+            <url>https://repo.viaversion.com/</url>
+        </repository>
+        <!-- Sonatype -->
+        <repository>
+            <id>sonatype</id>
+            <url>https://oss.sonatype.org/content/groups/public/</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <!-- Spigot(1.7x) -->
+        <dependency>
+            <groupId>net.minecraft</groupId>
+            <artifactId>Spigot</artifactId>
+            <version>LATEST</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/Libs/spigot-1.7.10-SNAPSHOT-b1657.jar</systemPath>
+        </dependency>
+        <!-- Spigot(1.8x) -->
+        <dependency>
+            <groupId>net.minecraft</groupId>
+            <artifactId>Spigot</artifactId>
+            <version>LATEST</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/Libs/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>org.bukkit</groupId>
+            <artifactId>Spigot</artifactId>
+            <version>LATEST</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/Libs/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar</systemPath>
+        </dependency>
+        <!-- Spigot(1.9x) -->
+        <dependency>
+            <groupId>hardling.us.spigot</groupId>
+            <artifactId>Spigot</artifactId>
+            <version>LATEST</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/Libs/spigot-1.9.4-R0.1-SNAPSHOT-latest.jar</systemPath>
+        </dependency>
+        <!-- Spigot(1.10x) -->
+        <dependency>
+            <groupId>hardling.us.spigot</groupId>
+            <artifactId>Spigot</artifactId>
+            <version>LATEST</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/Libs/spigot-1.10.2-R0.1-SNAPSHOT-latest.jar</systemPath>
+        </dependency>
+        <!-- Spigot(1.11x) -->
+        <dependency>
+            <groupId>hardling.us.spigot</groupId>
+            <artifactId>Spigot</artifactId>
+            <version>LATEST</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/Libs/spigot-1.11.2.jar</systemPath>
+        </dependency>
+        <!-- Spigot(1.12x) -->
+        <dependency>
+            <groupId>hardling.us.spigot</groupId>
+            <artifactId>Spigot</artifactId>
+            <version>LATEST</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/Libs/spigot-1.12.2.jar</systemPath>
+        </dependency>
+        <!-- ViaVersion -->
+        <dependency>
+            <groupId>us.myles</groupId>
+            <artifactId>viaversion</artifactId>
+            <version>3.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/ViaVersion.jar</systemPath>
+        </dependency>
+        <!-- ProtocolSupport -->
+        <dependency>
+            <groupId>protocolsupport</groupId>
+            <artifactId>protocolsupport</artifactId>
+            <version>3.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/protocolsupport-SNAPSHOT.jar</systemPath>
+        </dependency>
+        <!-- ajQueue -->
+        <dependency>
+            <groupId>us.ajg0702</groupId>
+            <artifactId>ajQueue</artifactId>
+            <version>LASTED</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/ajQueue-2.1.0.jar</systemPath>
+        </dependency>
+        <!-- PortalOLD -->
+        <dependency>
+            <groupId>me.joeleoli</groupId>
+            <artifactId>PortalOLD</artifactId>
+            <version>LASTED</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/PortalOLD.jar</systemPath>
+        </dependency>
+        <!-- EzQueueSpigot -->
+        <dependency>
+            <groupId>me.signatured</groupId>
+            <artifactId>EzQueueSpigot</artifactId>
+            <version>LASTED</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/EzQueueSpigot.jar</systemPath>
+        </dependency>
+        <!-- AquaCore -->
+        <dependency>
+            <groupId>me.activated</groupId>
+            <artifactId>AquaCore</artifactId>
+            <version>LASTED</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/AquaCore.jar</systemPath>
+        </dependency>
+        <!-- Venom -->
+        <dependency>
+            <groupId>cc.fyre</groupId>
+            <artifactId>Venom</artifactId>
+            <version>LASTED</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/venom-bukkit-1.0-SNAPSHOT.jar</systemPath>
+        </dependency>
+        <!-- Zoot -->
+        <dependency>
+            <groupId>com.minexd</groupId>
+            <artifactId>Zoot</artifactId>
+            <version>LASTED</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/Zoot.jar</systemPath>
+        </dependency>
+        <!-- Hexa -->
+        <dependency>
+            <groupId>com.hexa</groupId>
+            <artifactId>Hexa</artifactId>
+            <version>LASTED</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/HexaApi.jar</systemPath>
+        </dependency>
+        <!-- Mizu -->
+        <dependency>
+            <groupId>com.broustudio</groupId>
+            <artifactId>MizuApi</artifactId>
+            <version>LASTED</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/MizuApi.jar</systemPath>
+        </dependency>
+        <!-- LuckPerms -->
+        <dependency>
+            <groupId>net.luckperms</groupId>
+            <artifactId>LuckPerms</artifactId>
+            <version>LASTED</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/LuckPerms-Bukkit-Legacy-5.2.31.jar</systemPath>
+        </dependency>
+        <!-- Vault-->
+        <dependency>
+            <groupId>net.milkbowl</groupId>
+            <artifactId>Vault</artifactId>
+            <version>LASTED</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/Vault.jar</systemPath>
+        </dependency>
+        <!-- LunarClientAPI -->
+        <dependency>
+            <groupId>com.lunarclient</groupId>
+            <artifactId>LunarClientApi</artifactId>
+            <version>LASTED</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/LunarClientAPI.jar</systemPath>
+        </dependency>
+        <!-- Lombok-->
+        <dependency>
+            <groupId>Lombok</groupId>
+            <artifactId>Lombok</artifactId>
+            <version>LASTED</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/Lombok.jar</systemPath>
+        </dependency>
+        <!-- PlaceholderAPI -->
+        <dependency>
+            <groupId>me.clip</groupId>
+            <artifactId>PlaceholderAPI</artifactId>
+            <version>LASTED</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/PlaceholderAPI.jar</systemPath>
+        </dependency>
+        <!-- ProtocolLib -->
+        <dependency>
+            <groupId>me.clip</groupId>
+            <artifactId>ProtocolLib</artifactId>
+            <version>LASTED</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/ProtocolLib.jar</systemPath>
+        </dependency>
+        <!-- Lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.22</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/lombok.jar</systemPath>
+        </dependency>
+    </dependencies>
+</project>

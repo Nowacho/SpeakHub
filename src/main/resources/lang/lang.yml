@@ -1,0 +1,112 @@
+# Placeholders: %player%, %rank%, %store%, %teamspeak%, %twitter%, %discord%, %website%
+JOIN_MESSAGE:
+  ENABLED: true
+  MESSAGE:
+    - "&7&m---------------------------------------"
+    - "&fWelcome %player% to the &5&lHardlingMc Network"
+    - ""
+    - "&6* &b&lTwitter&7: &f%twitter%"
+    - "&6* &3&lStore&7: &f%store%"
+    - "&6* &9&lDiscord&7: &f%discord%"
+    - ""
+    - "&6* &7&oUse the Server Selector to explorer our Network!"
+    - "&7&m---------------------------------------"
+
+PLAYER-DONATOR:
+  QUIT:
+    ENABLED: true
+    MESSAGE:
+      - "%rank% %player% &fhe disconnected &8[&c&l-&8]"
+  JOIN:
+    ENABLED: true
+    MESSAGE:
+      - "%rank% %player% &fhas connected &8[&e&l+&8]"
+
+# Only works if in SPEAKQUEUE mode
+QUEUE:
+  JOINED:
+    - "&8&m+------------------------------------+"
+    - "&7You have joined the queue for &b%queue%&7."
+    - "&8&m+------------------------------------+"
+  PAUSED:
+    - "&8&m+-----------------------------------------+"
+    - "&7The queue I was in is currently paused&7."
+    - ""
+    - "&5&lQueue System"
+    - "&dServer&7: &f%queue-server%"
+    - "&dPosition&7: &f%queue-position%&7/&f%queue-size%"
+    - "&8&m+-----------------------------------------+"
+  LEFT:
+    - "&8&m+--------------------------------+"
+    - "&7you have stepped out of the queue of &f%queue-server%&7."
+    - "&8&m+--------------------------------+"
+  NOT-IN-QUEUE:
+    - "&8&m+-------------------+"
+    - "&7You are not in queue&7."
+    - "&8&m+-------------------+"
+  PRIORITY:
+    - "&8&m+-----------------------------------------+"
+    - "&eSomeone with higher priority has joined your queue&7."
+    - "&8&m+-----------------------------------------+"
+
+# Teleport messages
+TELEPORT:
+  SPAWN: "&aYou have teleport Spawn&7."
+  TELEPORT-FROM: "&f&n%player%&b has just teleported to your location&7."
+  TELEPORT-TO: "&bYou have just been teleported to &b&n%player%&7."
+  TELEPORTHERE-FROM: "&f&n%player%&b has been teleported to you&7."
+  TELEPORTHERE-TO: "&bYou were teleported to &f&n%player%&7."
+  TELEPORTALL-FROM: "&bYou were teleported to &f%player%&7."
+  TELEPORTALL-TO: "&aYou have teleported all players to your location&7."
+
+# SOCIALS
+SOCIAL:
+  DISCORD:
+    - "&7&m-----------------------------------------------------"
+    - "&6* &fJoin our &9Discord &fto be updated about our server &f&n%discord%&7."
+    - "&7&m-----------------------------------------------------"
+  STORE:
+    - "&7&m-----------------------------------------------------"
+    - "&6* &fAcquire benefits in our &aStore &f&n%store%&7."
+    - "&7&m-----------------------------------------------------"
+  TEAMSPEAK:
+    - "&7&m-----------------------------------------------------"
+    - "&6* &fJoin Our &6TeamSpeak &fIP&7: &f&n%teamspeak%&7."
+    - "&7&m-----------------------------------------------------"
+  TWITTER:
+    - "&7&m-----------------------------------------------------"
+    - "&6* &fFollow us on &bTwitter &fas &f&n%twitter%&7."
+    - "&7&m-----------------------------------------------------"
+  WEBSITE:
+    - "&7&m-----------------------------------------------------"
+    - "&6* &flog in to &3WebSite&f server to stay up to date on the server &f&n%website%&7."
+    - "&7&m-----------------------------------------------------"
+
+
+# General Messages
+NO-PERMS: "&cNo Permissions&7."
+DISABLED-COMMANDS: "&cThis command is locked&7."
+DISABLED-MESSAGES: "&cUse more appropriate language&7."
+OFFLINE-PLAYER: "&cThat player is currently offline&7."
+BORDER-CANNOT-MOVE: "&cYou have reached the world border&7."
+PVP-MODE-JOIN: "&aYou turned on your PvP-Mode and you can receive damage&7."
+HIDE-PLAYER: "&cPlayer visibility has been disable&7."
+SHOW-PLAYER: "&aPlayer visibility has been enable&7."
+
+# Command Messages #
+COMMAND:
+  # /ping
+  PING: "&fYour ping is&7: %player_colored_ping%&7ms"
+  # /chat
+  CHAT:
+    CHAT_DELAY: "&cYou cannot send chat message for another %seconds%s &7."
+    CHAT_MUTED: "&cGlobal chat is now disabled&7."
+    CHAT_UNMUTED: "&aGlobal chat is now enabled&7."
+    CHAT_DELAY_ANNUNCEMENT: "&7Chat now has a delay of &a&o%delay%s"
+    CLEAR:
+      - "&8&m+----------------------------------------------+"
+      - "                         &b&lChat Clear"
+      - ""
+      - "&aPlayer chat has been deleted by&7: %rank%%player%"
+      - "&8&m+----------------------------------------------+"
+

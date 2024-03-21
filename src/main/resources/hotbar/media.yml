@@ -1,0 +1,26 @@
+MEDIA:
+  ENABLED: true
+  ENCHANTED: true
+  MATERIAL: BOOK
+  SLOT: 4
+  DATA: 0
+  DISPLAYNAME: "&9&l♦ &b&lMedia Network &7&o(Right-Click)"
+  LORE:
+    - "&5&m-----&d&m&l-------------------------&5&m-----"
+    - "&fRight-click to open the Social Network menu!"
+    - "&5&m-----&d&m&l-------------------------&5&m-----"
+  # Right click Message
+  SOUND-ENABLED: true
+  SOUND: CLICK
+  MESSAGE:
+    - "&7&m---------------------------------------"
+    - "&fSocial networks of &5&lHardlingMc Network"
+    - ""
+    - "&6* &b&lTwitter&7: &f%twitter%"
+    - "&6* &a&lStore&7: &f%store%"
+    - "&6* &9&lDiscord&7: &f%discord%"
+    - "&6* &e&lWebsite&7: &f%website%"
+    - "&6* &3&lTeamSpeak&7: &f%teamspeak%"
+    - ""
+    - "&6* &6Server owner: YoSoyByProxx#1026"
+    - "&7&m---------------------------------------"

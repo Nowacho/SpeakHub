@@ -1,0 +1,203 @@
+#  ____            _   _      _
+# |  _ \ __ _ _ __| |_(_) ___| | ___  ___
+# | |_) / _` | '__| __| |/ __| |/ _ \/ __|
+# |  __/ (_| | |  | |_| | (__| |  __/\__ \
+# |_|   \__,_|_|   \__|_|\___|_|\___||___/
+MENU:
+  TITLE: "&cParticle Menu"
+  INVENTORY: 36
+  GLASS_PANEL:
+    ENABLED: true
+    ID: 2
+  CLEAR-PARTICLES:
+    DISPLAYNAME: "&6Clear Particles"
+    LORE:
+        - "&5&m-----&d&m&l---------------&5&m-----"
+        - "&6Click to Clear Particles"
+        - "&5&m-----&d&m&l---------------&5&m-----"
+    MESSAGE: "&fYou has been clear your &dParticle!"
+    MATERIAL: FEATHER
+    SLOT: 35
+  PARTICLES:
+    FLAME:
+      DISPLAYNAME: "&6Flame Particle"
+      LORE:
+        - "&5&m-----&d&m&l---------------&5&m-----"
+        - "&6Click to select Flame Particle"
+        - "&5&m-----&d&m&l---------------&5&m-----"
+      PERMISSION: "speakhub.particles.flame"
+      MESSAGE: "&fYou has been change your &6Flame Particle"
+      PARTICLE: FLAME
+      ENCHANTED: true
+      MATERIAL: BLAZE_POWDER
+      DATA: 0
+      SLOT: 10
+    EXPLOSION:
+      DISPLAYNAME: "&eExplosion Particle"
+      LORE:
+        - "&5&m-----&d&m&l---------------&5&m-----"
+        - "&6Click to select &eExplosion Particle"
+        - "&5&m-----&d&m&l---------------&5&m-----"
+      PERMISSION: "speakhub.particles.explosion"
+      MESSAGE: "&fYou has been change your &eExplosion Particle"
+      PARTICLE: EXPLOSION_NORMAL
+      ENCHANTED: true
+      MATERIAL: TNT
+      DATA: 0
+      SLOT: 11
+    HEART:
+      DISPLAYNAME: "&cHeart Particle"
+      LORE:
+        - "&5&m-----&d&m&l---------------&5&m-----"
+        - "&6Click to select &cHeart Particle"
+        - "&5&m-----&d&m&l---------------&5&m-----"
+      PERMISSION: "speakhub.particles.heart"
+      MESSAGE: "&fYou has been change your &cHeart Particle"
+      PARTICLE: HEART
+      ENCHANTED: true
+      MATERIAL: REDSTONE
+      DATA: 0
+      SLOT: 12
+    WATER:
+      DISPLAYNAME: "&bWater Particle"
+      LORE:
+        - "&5&m-----&d&m&l---------------&5&m-----"
+        - "&6Click to select &bWater Particle"
+        - "&5&m-----&d&m&l---------------&5&m-----"
+      PERMISSION: "speakhub.particles.water"
+      MESSAGE: "&fYou has been change your &bWater Particle"
+      PARTICLE: WATER_SPLASH
+      ENCHANTED: true
+      MATERIAL: WATER_BUCKET
+      DATA: 0
+      SLOT: 13
+    LAVA:
+      DISPLAYNAME: "&cLava Particle"
+      LORE:
+        - "&5&m-----&d&m&l---------------&5&m-----"
+        - "&6Click to select &4Lava Particle"
+        - "&5&m-----&d&m&l---------------&5&m-----"
+      PERMISSION: "speakhub.particles.lava"
+      MESSAGE: "&fYou has been change your &4Lava Particle"
+      PARTICLE: DRIP_LAVA
+      ENCHANTED: true
+      MATERIAL: LAVA_BUCKET
+      DATA: 0
+      SLOT: 14
+    SNOWBALL:
+      DISPLAYNAME: "&4Snow Particle"
+      LORE:
+        - "&5&m-----&d&m&l---------------&5&m-----"
+        - "&6Click to select &4Snow Particle"
+        - "&5&m-----&d&m&l---------------&5&m-----"
+      PERMISSION: "speakhub.particles.snowball"
+      MESSAGE: "&fYou has been change your &4Snow Particle"
+      PARTICLE: SNOWBALL
+      ENCHANTED: true
+      MATERIAL: SNOW_BALL
+      DATA: 0
+      SLOT: 15
+    SMOKE:
+      DISPLAYNAME: "&8Smoke Particle"
+      LORE:
+        - "&5&m-----&d&m&l---------------&5&m-----"
+        - "&6Click to select &8Smoke Particle"
+        - "&5&m-----&d&m&l---------------&5&m-----"
+      PERMISSION: "speakhub.particles.smoke"
+      MESSAGE: "&fYou has been change your &8Smoke Particle"
+      PARTICLE: SMOKE_LARGE
+      ENCHANTED: true
+      MATERIAL: COAL
+      DATA: 0
+      SLOT: 16
+    ENCHANTMENT:
+      DISPLAYNAME: "&9chanted Particle"
+      LORE:
+        - "&5&m-----&d&m&l---------------&5&m-----"
+        - "&6Click to select &9Enchanted Particle"
+        - "&5&m-----&d&m&l---------------&5&m-----"
+      PERMISSION: "speakhub.particles.enchanted"
+      MESSAGE: "&fYou has been change your &9Enchanted Particle"
+      PARTICLE: ENCHANTMENT_TABLE
+      ENCHANTED: true
+      MATERIAL: BOOK
+      DATA: 0
+      SLOT: 19
+    NOTE:
+      DISPLAYNAME: "&dNote Block Particles"
+      LORE:
+        - "&5&m-----&d&m&l---------------&5&m-----"
+        - "&6Click to select &dNote Block Particles"
+        - "&5&m-----&d&m&l---------------&5&m-----"
+      PERMISSION: "speakhub.particles.note"
+      MESSAGE: "&fYou has been change your &dNote Block Particles"
+      PARTICLE: NOTE
+      ENCHANTED: true
+      MATERIAL: NOTE_BLOCK
+      DATA: 0
+      SLOT: 20
+    VILLAGER_HAPPY:
+      DISPLAYNAME: "&aVillager Particles"
+      LORE:
+        - "&5&m-----&d&m&l---------------&5&m-----"
+        - "&6Click to select &aVillager Happy Particles"
+        - "&5&m-----&d&m&l---------------&5&m-----"
+      PERMISSION: "speakhub.particles.happy"
+      MESSAGE: "&fYou has been change your &aVillager Happy Particles"
+      PARTICLE: VILLAGER_HAPPY
+      ENCHANTED: true
+      MATERIAL: BLAZE_POWDER
+      DATA: 0
+      SLOT: 21
+    PORTAL:
+      DISPLAYNAME: "&4EnderPearl Particles"
+      LORE:
+        - "&5&m-----&d&m&l---------------&5&m-----"
+        - "&6Click to select &4EnderPearl Particles"
+        - "&5&m-----&d&m&l---------------&5&m-----"
+      PERMISSION: "speakhub.particles.ender"
+      MESSAGE: "&fYou has been change your &4EnderPearl Particles"
+      PARTICLE: PORTAL
+      ENCHANTED: true
+      MATERIAL: ENDER_PEARL
+      DATA: 0
+      SLOT: 22
+    SLIME:
+      DISPLAYNAME: "&2Slime Particles"
+      LORE:
+        - "&5&m-----&d&m&l---------------&5&m-----"
+        - "&6Click to select &2Slime Particles"
+        - "&5&m-----&d&m&l---------------&5&m-----"
+      PERMISSION: "speakhub.particles.slime"
+      MESSAGE: "&fYou has been change your &2Slime Particles"
+      PARTICLE: SLIME
+      ENCHANTED: true
+      MATERIAL: SLIME_BALL
+      DATA: 0
+      SLOT: 23
+    VILLAGER_ANGRY:
+      DISPLAYNAME: "&cVillager Angry Particles"
+      LORE:
+        - "&5&m-----&d&m&l---------------&5&m-----"
+        - "&6Click to select &cVillager Angry Particles"
+        - "&5&m-----&d&m&l---------------&5&m-----"
+      PERMISSION: "speakhub.particles.angry"
+      MESSAGE: "&fYou has been change your &cVillager Angry Particles"
+      PARTICLE: VILLAGER_ANGRY
+      ENCHANTED: true
+      MATERIAL: FIREWORK_CHARGE
+      DATA: 0
+      SLOT: 24
+    CRIT_MAGIC:
+      DISPLAYNAME: "&3Critics Particles"
+      LORE:
+        - "&5&m-----&d&m&l---------------&5&m-----"
+        - "&6Click to select &3Critics Particles"
+        - "&5&m-----&d&m&l---------------&5&m-----"
+      PERMISSION: "speakhub.particles.crit"
+      MESSAGE: "&fYou has been change your &3Critics Particles"
+      PARTICLE: CRIT_MAGIC
+      ENCHANTED: true
+      MATERIAL: DIAMOND_SWORD
+      DATA: 0
+      SLOT: 25

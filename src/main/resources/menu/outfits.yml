@@ -1,0 +1,261 @@
+#   ___        _    __ _ _
+#  / _ \ _   _| |_ / _(_) |_ ___
+# | | | | | | | __| |_| | __/ __|
+# | |_| | |_| | |_|  _| | |_\__ \
+#  \___/ \__,_|\__|_| |_|\__|___/
+
+# COLORS: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, a, e, b, d, f
+MENU:
+  TITLE: "&6Outfit Menu"
+  INVENTORY: 18
+  GLASS_PANEL:
+    ENABLED: true
+    ID: 2
+  CLEAR-OUTFIT:
+    DISPLAYNAME: "&cClear Outfit!"
+    LORE:
+      - "&5&m-----&d&m&l---------------&5&m-----"
+      - "&6Click to Clear Outfits"
+      - "&5&m-----&d&m&l---------------&5&m-----"
+    MESSAGE: "you have correctly removed your Outfit"
+    MATERIAL: FEATHER
+    SLOT: 17
+  OUTFITS:
+    BLACK:
+      DISPLAYNAME: "&0Black Outfit"
+      LORE:
+        - "&5&m-----&d&m&l---------------&5&m-----"
+        - "&6Click to select Black Outfit"
+        - "&5&m-----&d&m&l---------------&5&m-----"
+      MESSAGE: "&fYou has been change your Outfit at &0Black Outfit!"
+      PERMISSION: "speakhub.outfits.black"
+      MATERIAL: LEATHER_HELMET # Item
+      COLOR: "0" # Armor Item Color
+      SLOT: 0
+      ARMOR:
+        HELMET: LEATHER_HELMET
+        CHESTPLATE: LEATHER_CHESTPLATE
+        LEGGINGS: LEATHER_LEGGINGS
+        BOOTS: LEATHER_BOOTS
+        COLOR: "0" # Armor Color
+    BLUE:
+      DISPLAYNAME: "&1Blue Outfit"
+      LORE:
+        - "&5&m-----&d&m&l---------------&5&m-----"
+        - "&6Click to select Blue Outfit"
+        - "&5&m-----&d&m&l---------------&5&m-----"
+      MESSAGE: "&fYou has been change your Outfit at &1Blue Outfit!"
+      PERMISSION: "speakhub.outfits.blue"
+      MATERIAL: LEATHER_HELMET # Item
+      COLOR: "1" # Armor Item Color
+      SLOT: 1
+      ARMOR:
+        HELMET: LEATHER_HELMET
+        CHESTPLATE: LEATHER_CHESTPLATE
+        LEGGINGS: LEATHER_LEGGINGS
+        BOOTS: LEATHER_BOOTS
+        COLOR: "1" # Armor Color
+    GREEN:
+      DISPLAYNAME: "&2Green Outfit"
+      LORE:
+        - "&5&m-----&d&m&l---------------&5&m-----"
+        - "&6Click to select Green Outfit"
+        - "&5&m-----&d&m&l---------------&5&m-----"
+      MESSAGE: "&fYou has been change your Outfit at &2Green Outfit!"
+      PERMISSION: "speakhub.outfits.green"
+      MATERIAL: LEATHER_HELMET # Item
+      COLOR: "2" # Armor Item Color
+      SLOT: 2
+      ARMOR:
+        HELMET: LEATHER_HELMET
+        CHESTPLATE: LEATHER_CHESTPLATE
+        LEGGINGS: LEATHER_LEGGINGS
+        BOOTS: LEATHER_BOOTS
+        COLOR: "2" # Armor Color
+    CYAN:
+      DISPLAYNAME: "&3Cyan Outfit"
+      LORE:
+        - "&5&m-----&d&m&l---------------&5&m-----"
+        - "&6Click to select Cyan Outfit"
+        - "&5&m-----&d&m&l---------------&5&m-----"
+      MESSAGE: "&fYou has been change your Outfit at &3Cyan Outfit!"
+      PERMISSION: "speakhub.outfits.cyan"
+      MATERIAL: LEATHER_HELMET # Item
+      COLOR: "3" # Armor Item Color
+      SLOT: 3
+      ARMOR:
+        HELMET: LEATHER_HELMET
+        CHESTPLATE: LEATHER_CHESTPLATE
+        LEGGINGS: LEATHER_LEGGINGS
+        BOOTS: LEATHER_BOOTS
+        COLOR: "3" # Armor Color
+    RED:
+      DISPLAYNAME: "&4Red Outfit"
+      LORE:
+        - "&5&m-----&d&m&l---------------&5&m-----"
+        - "&6Click to select Red Outfit"
+        - "&5&m-----&d&m&l---------------&5&m-----"
+      MESSAGE: "&fYou has been change your Outfit at &4Red Outfit!"
+      PERMISSION: "speakhub.outfits.red"
+      MATERIAL: LEATHER_HELMET # Item
+      COLOR: "4" # Armor Item Color
+      SLOT: 4
+      ARMOR:
+        HELMET: LEATHER_HELMET
+        CHESTPLATE: LEATHER_CHESTPLATE
+        LEGGINGS: LEATHER_LEGGINGS
+        BOOTS: LEATHER_BOOTS
+        COLOR: "4" # Armor Color
+    PURPLE:
+      DISPLAYNAME: "&4Purple Outfit"
+      LORE:
+        - "&5&m-----&d&m&l---------------&5&m-----"
+        - "&6Click to select Purple Outfit"
+        - "&5&m-----&d&m&l---------------&5&m-----"
+      MESSAGE: "&fYou has been change your Outfit at &4Purple Outfit!"
+      PERMISSION: "speakhub.outfits.purple"
+      MATERIAL: LEATHER_HELMET # Item
+      COLOR: "5" # Armor Item Color
+      SLOT: 5
+      ARMOR:
+        HELMET: LEATHER_HELMET
+        CHESTPLATE: LEATHER_CHESTPLATE
+        LEGGINGS: LEATHER_LEGGINGS
+        BOOTS: LEATHER_BOOTS
+        COLOR: "5" # Armor Color
+    ORANGE:
+      DISPLAYNAME: "&6Orange Outfit"
+      LORE:
+        - "&5&m-----&d&m&l---------------&5&m-----"
+        - "&6Click to select Orange Outfit"
+        - "&5&m-----&d&m&l---------------&5&m-----"
+      MESSAGE: "&fYou has been change your Outfit at &6Orange Outfit!"
+      PERMISSION: "speakhub.outfits.orange"
+      MATERIAL: LEATHER_HELMET # Item
+      COLOR: "6" # Armor Item Color
+      SLOT: 6
+      ARMOR:
+        HELMET: LEATHER_HELMET
+        CHESTPLATE: LEATHER_CHESTPLATE
+        LEGGINGS: LEATHER_LEGGINGS
+        BOOTS: LEATHER_BOOTS
+        COLOR: "6" # Armor Color
+    SILVER:
+      DISPLAYNAME: "&8Silver Outfit"
+      LORE:
+        - "&5&m-----&d&m&l---------------&5&m-----"
+        - "&6Click to select Silver Outfit"
+        - "&5&m-----&d&m&l---------------&5&m-----"
+      MESSAGE: "&fYou has been change your Outfit at &8Silver Outfit!"
+      PERMISSION: "speakhub.outfits.silver"
+      MATERIAL: LEATHER_HELMET # Item
+      COLOR: "8" # Armor Item Color
+      SLOT: 7
+      ARMOR:
+        HELMET: LEATHER_HELMET
+        CHESTPLATE: LEATHER_CHESTPLATE
+        LEGGINGS: LEATHER_LEGGINGS
+        BOOTS: LEATHER_BOOTS
+        COLOR: "8" # Armor Color
+    GRAY:
+      DISPLAYNAME: "&7Gray Outfit"
+      LORE:
+        - "&5&m-----&d&m&l---------------&5&m-----"
+        - "&6Click to select Gray Outfit"
+        - "&5&m-----&d&m&l---------------&5&m-----"
+      MESSAGE: "&fYou has been change your Outfit at &7Gray Outfit!"
+      PERMISSION: "speakhub.outfits.gray"
+      MATERIAL: LEATHER_HELMET # Item
+      COLOR: "7" # Armor Item Color
+      SLOT: 8
+      ARMOR:
+        HELMET: LEATHER_HELMET
+        CHESTPLATE: LEATHER_CHESTPLATE
+        LEGGINGS: LEATHER_LEGGINGS
+        BOOTS: LEATHER_BOOTS
+        COLOR: "7" # Armor Color
+    LIME:
+      DISPLAYNAME: "&aLime Outfit"
+      LORE:
+        - "&5&m-----&d&m&l---------------&5&m-----"
+        - "&6Click to select Lime Outfit"
+        - "&5&m-----&d&m&l---------------&5&m-----"
+      MESSAGE: "&fYou has been change your Outfit at &aLime Outfit!"
+      PERMISSION: "speakhub.outfits.lime"
+      MATERIAL: LEATHER_HELMET # Item
+      COLOR: "a" # Armor Item Color
+      SLOT: 9
+      ARMOR:
+        HELMET: LEATHER_HELMET
+        CHESTPLATE: LEATHER_CHESTPLATE
+        LEGGINGS: LEATHER_LEGGINGS
+        BOOTS: LEATHER_BOOTS
+        COLOR: "a" # Armor Color
+    YELLOW:
+      DISPLAYNAME: "&eYellow Outfit"
+      LORE:
+        - "&5&m-----&d&m&l---------------&5&m-----"
+        - "&6Click to select Yellow Outfit"
+        - "&5&m-----&d&m&l---------------&5&m-----"
+      MESSAGE: "&fYou has been change your Outfit at &eYellow Outfit!"
+      PERMISSION: "speakhub.outfits.yellow"
+      MATERIAL: LEATHER_HELMET # Item
+      COLOR: "e" # Armor Item Color
+      SLOT: 10
+      ARMOR:
+        HELMET: LEATHER_HELMET
+        CHESTPLATE: LEATHER_CHESTPLATE
+        LEGGINGS: LEATHER_LEGGINGS
+        BOOTS: LEATHER_BOOTS
+        COLOR: "e" # Armor Color
+    AQUA:
+      DISPLAYNAME: "&bAqua Outfit"
+      LORE:
+        - "&5&m-----&d&m&l---------------&5&m-----"
+        - "&6Click to select Aqua Outfit"
+        - "&5&m-----&d&m&l---------------&5&m-----"
+      MESSAGE: "&fYou has been change your Outfit at &bAqua Outfit!"
+      PERMISSION: "speakhub.outfits.aqua"
+      MATERIAL: LEATHER_HELMET # Item
+      COLOR: "b" # Armor Item Color
+      SLOT: 11
+      ARMOR:
+        HELMET: LEATHER_HELMET
+        CHESTPLATE: LEATHER_CHESTPLATE
+        LEGGINGS: LEATHER_LEGGINGS
+        BOOTS: LEATHER_BOOTS
+        COLOR: "b" # Armor Color
+    FUCHISIA:
+      DISPLAYNAME: "&dFuchisia Outfit"
+      LORE:
+        - "&5&m-----&d&m&l---------------&5&m-----"
+        - "&6Click to select Fuchisia Outfit"
+        - "&5&m-----&d&m&l---------------&5&m-----"
+      MESSAGE: "&fYou has been change your Outfit at &dFuchisia Outfit!"
+      PERMISSION: "speakhub.outfits.fuchisia"
+      MATERIAL: LEATHER_HELMET # Item
+      COLOR: "d" # Armor Item Color
+      SLOT: 12
+      ARMOR:
+        HELMET: LEATHER_HELMET
+        CHESTPLATE: LEATHER_CHESTPLATE
+        LEGGINGS: LEATHER_LEGGINGS
+        BOOTS: LEATHER_BOOTS
+        COLOR: "d" # Armor Color
+    WHITE:
+      DISPLAYNAME: "&fWhite Outfit"
+      LORE:
+        - "&5&m-----&d&m&l---------------&5&m-----"
+        - "&6Click to select White Outfit"
+        - "&5&m-----&d&m&l---------------&5&m-----"
+      MESSAGE: "&fYou has been change your Outfit at &fWhite Outfit!"
+      PERMISSION: "speakhub.outfits.white"
+      MATERIAL: LEATHER_HELMET # Item
+      COLOR: "f" # Armor Item Color
+      SLOT: 13
+      ARMOR:
+        HELMET: LEATHER_HELMET
+        CHESTPLATE: LEATHER_CHESTPLATE
+        LEGGINGS: LEATHER_LEGGINGS
+        BOOTS: LEATHER_BOOTS
+        COLOR: "f" # Armor Color

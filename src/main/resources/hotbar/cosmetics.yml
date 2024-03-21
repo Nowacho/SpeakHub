@@ -1,0 +1,52 @@
+# Cosmetic Config
+COSMETIC:
+  ENABLED: true
+  ENCHANTED: true
+  MATERIAL: EMERALD
+  SOUND_ENABLED: true
+  SOUND: FIRE
+  SLOT: 8
+  DATA: 0
+  DISPLAYNAME: "&b❤ &3&lCosmetics &7&o(Right-Click)"
+  LORE:
+    - "&5&m-----&d&m&l-------------------------&5&m-----"
+    - "&fRight-click to open the cosmetics menu!"
+    - "&5&m-----&d&m&l-------------------------&5&m-----"
+# Inventory Config
+MENU:
+  TITLE: "&5Cosmetic Menu"
+  INVENTORY: 27
+  GLASS_PANEL:
+    ENABLED: true
+    ID: 2
+  ITEMS:
+    HEADS:
+      TITLE: "&3Heads Menu"
+      LORE:
+        - ""
+        - "&7» &fChange your heads"
+        - ""
+        - "&aClick to view heads..."
+      PERMISSION: "speakhub.cosmetic.heads"
+      MATERIAL: FIREWORK
+      SLOT: 15
+    ARMORS:
+      TITLE: "&cArmors Menu"
+      LORE:
+        - ""
+        - "&7» &fChange your outfit"
+        - ""
+        - "&aClick to view outfits"
+      PERMISSION: "speakhub.cosmetic.armor"
+      MATERIAL: DIAMOND_CHESTPLATE
+      SLOT: 13
+    PARTICLES:
+      TITLE: "&eParticles Menu"
+      LORE:
+        - ""
+        - "&7» &fChange your particles"
+        - ""
+        - "&aClick to view particles"
+      PERMISSION: "speakhub.cosmetic.particles"
+      MATERIAL: BLAZE_POWDER
+      SLOT: 11
