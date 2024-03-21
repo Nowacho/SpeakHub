@@ -15,70 +15,27 @@
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-shade-plugin</artifactId>
-                <version>3.2.2</version>
-                <executions>
-                    <execution>
-                        <phase>package</phase>
-                        <goals>
-                            <goal>shade</goal>
-                        </goals>
-                        <configuration>
-                            <filters>
-                                <filter>
-                                    <artifact>*:*</artifact>
-                                    <excludes>
-                                        <exclude>META-INF/</exclude>
-                                    </excludes>
-                                </filter>
-                            </filters>
-                            <finalName>SpeakHub-1.0.-SNAPSHOT</finalName>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>8</source>
-                    <target>8</target>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
-
     <repositories>
-        <!-- Spigot -->
         <repository>
             <id>spigotmc-repo</id>
             <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
         </repository>
-        <!-- Dmulloy2 -->
+        <repository>
+            <id>funkemunkey</id>
+            <url>https://nexus.funkemunky.cc/content/repositories/releases/</url>
+        </repository>
         <repository>
             <id>dmulloy2-repo</id>
             <url>https://repo.dmulloy2.net/repository/public/</url>
         </repository>
-        <!-- Jitpack -->
         <repository>
             <id>jitpack.io</id>
             <url>https://jitpack.io/</url>
         </repository>
-        <!-- PlaceholderApi -->
         <repository>
             <id>placeholderapi</id>
             <url>http://repo.extendedclip.com/content/repositories/placeholderapi/</url>
         </repository>
-        <!-- ViaVersion -->
-        <repository>
-            <id>viaversion-repo</id>
-            <url>https://repo.viaversion.com/</url>
-        </repository>
-        <!-- Sonatype -->
         <repository>
             <id>sonatype</id>
             <url>https://oss.sonatype.org/content/groups/public/</url>
@@ -86,60 +43,19 @@
     </repositories>
 
     <dependencies>
-        <!-- Spigot(1.7x) -->
+        <!-- Paper 1.8.8 -->
         <dependency>
-            <groupId>net.minecraft</groupId>
-            <artifactId>Spigot</artifactId>
-            <version>LATEST</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/Libs/spigot-1.7.10-SNAPSHOT-b1657.jar</systemPath>
+            <groupId>org.github.paperspigot</groupId>
+            <artifactId>paperspigot</artifactId>
+            <version>1.8.8</version>
+            <scope>provided</scope>
         </dependency>
-        <!-- Spigot(1.8x) -->
+        <!-- Paper 1.7.10 -->
         <dependency>
-            <groupId>net.minecraft</groupId>
-            <artifactId>Spigot</artifactId>
-            <version>LATEST</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/Libs/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>org.bukkit</groupId>
-            <artifactId>Spigot</artifactId>
-            <version>LATEST</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/Libs/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar</systemPath>
-        </dependency>
-        <!-- Spigot(1.9x) -->
-        <dependency>
-            <groupId>hardling.us.spigot</groupId>
-            <artifactId>Spigot</artifactId>
-            <version>LATEST</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/Libs/spigot-1.9.4-R0.1-SNAPSHOT-latest.jar</systemPath>
-        </dependency>
-        <!-- Spigot(1.10x) -->
-        <dependency>
-            <groupId>hardling.us.spigot</groupId>
-            <artifactId>Spigot</artifactId>
-            <version>LATEST</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/Libs/spigot-1.10.2-R0.1-SNAPSHOT-latest.jar</systemPath>
-        </dependency>
-        <!-- Spigot(1.11x) -->
-        <dependency>
-            <groupId>hardling.us.spigot</groupId>
-            <artifactId>Spigot</artifactId>
-            <version>LATEST</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/Libs/spigot-1.11.2.jar</systemPath>
-        </dependency>
-        <!-- Spigot(1.12x) -->
-        <dependency>
-            <groupId>hardling.us.spigot</groupId>
-            <artifactId>Spigot</artifactId>
-            <version>LATEST</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/Libs/spigot-1.12.2.jar</systemPath>
+            <groupId>org.github.paperspigot</groupId>
+            <artifactId>1.7.10</artifactId>
+            <version>1.7.10</version>
+            <scope>provided</scope>
         </dependency>
         <!-- ViaVersion -->
         <dependency>
@@ -189,22 +105,6 @@
             <scope>system</scope>
             <systemPath>${project.basedir}/libs/AquaCore.jar</systemPath>
         </dependency>
-        <!-- Venom -->
-        <dependency>
-            <groupId>cc.fyre</groupId>
-            <artifactId>Venom</artifactId>
-            <version>LASTED</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/libs/venom-bukkit-1.0-SNAPSHOT.jar</systemPath>
-        </dependency>
-        <!-- Zoot -->
-        <dependency>
-            <groupId>com.minexd</groupId>
-            <artifactId>Zoot</artifactId>
-            <version>LASTED</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/libs/Zoot.jar</systemPath>
-        </dependency>
         <!-- Hexa -->
         <dependency>
             <groupId>com.hexa</groupId>
@@ -229,13 +129,12 @@
             <scope>system</scope>
             <systemPath>${project.basedir}/libs/LuckPerms-Bukkit-Legacy-5.2.31.jar</systemPath>
         </dependency>
-        <!-- Vault-->
+        <!-- VaultAPI -->
         <dependency>
-            <groupId>net.milkbowl</groupId>
-            <artifactId>Vault</artifactId>
-            <version>LASTED</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/libs/Vault.jar</systemPath>
+            <groupId>com.github.MilkBowl</groupId>
+            <artifactId>VaultAPI</artifactId>
+            <version>1.7</version>
+            <scope>provided</scope>
         </dependency>
         <!-- LunarClientAPI -->
         <dependency>
@@ -253,13 +152,12 @@
             <scope>system</scope>
             <systemPath>${project.basedir}/libs/Lombok.jar</systemPath>
         </dependency>
-        <!-- PlaceholderAPI -->
+        <!--PlaceholderAPI-->
         <dependency>
-            <groupId>me.clip</groupId>
+            <groupId>com.github.PlaceholderAPI</groupId>
             <artifactId>PlaceholderAPI</artifactId>
-            <version>LASTED</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/libs/PlaceholderAPI.jar</systemPath>
+            <version>2.11.4</version>
+            <scope>provided</scope>
         </dependency>
         <!-- ProtocolLib -->
         <dependency>
@@ -278,4 +176,62 @@
             <systemPath>${project.basedir}/libs/lombok.jar</systemPath>
         </dependency>
     </dependencies>
+
+    <build>
+        <sourceDirectory>src/main/java</sourceDirectory>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <version>2.6</version>
+                <executions>
+                    <execution>
+                        <id>make-assembly</id>
+                        <phase>package</phase>
+                        <goals> <goal>single</goal> </goals>
+                        <configuration>
+                            <appendAssemblyId>false</appendAssemblyId>
+                            <descriptorRefs>
+                                <descriptorRef>jar-with-dependencies</descriptorRef>
+                            </descriptorRefs>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.5.1</version>
+                <executions>
+                    <execution>
+                        <id>default-compile</id>
+                        <phase>none</phase>
+                    </execution>
+                    <execution>
+                        <id>java-compile</id>
+                        <phase>compile</phase>
+                        <goals> <goal>compile</goal> </goals>
+                    </execution>
+                    <execution>
+                        <id>testCompile</id>
+                        <phase>test-compile</phase>
+                        <goals>
+                            <goal>testCompile</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                    <annotationProcessorPaths>
+                        <path>
+                            <groupId>org.projectlombok</groupId>
+                            <artifactId>lombok</artifactId>
+                            <version>1.16.16</version>
+                        </path>
+                    </annotationProcessorPaths>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
