@@ -37,20 +37,10 @@ public final class PermissionManager {
             this.setPermission(new Mizu(), "Mizu");
             CC.log(SpeakHub.get().getPrefix() + "&aRank system configured as&8: &fMizu");
         }
-        // VENOM
-        if (Bukkit.getPluginManager().getPlugin("Venom") != null) {
-            this.setPermission(new Venom(), "Venom");
-            CC.log(SpeakHub.get().getPrefix() + "&aRank system configured as&8: &fVenom");
-        }
         // HEXA
         if (Bukkit.getPluginManager().getPlugin("Hexa") != null) {
             this.setPermission(new Hexa(), "Hexa");
             CC.log(SpeakHub.get().getPrefix() + "&aRank system configured as&8: &fHexa");
-        }
-        // ZOOT
-        if (Bukkit.getPluginManager().getPlugin("Zoot") != null) {
-            this.setPermission(new Zoot(), "Zoot");
-            CC.log(SpeakHub.get().getPrefix() + "&aRank system configured as&8: &fZoot");
         }
         if (SpeakHub.getInst().getPermission().getPlugin() == null) {
             Bukkit.getPluginManager().disablePlugin(plugin);
