@@ -124,10 +124,9 @@
         <!-- LuckPerms -->
         <dependency>
             <groupId>net.luckperms</groupId>
-            <artifactId>LuckPerms</artifactId>
-            <version>LASTED</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/libs/LuckPerms-Bukkit-Legacy-5.2.31.jar</systemPath>
+            <artifactId>api</artifactId>
+            <version>5.4</version>
+            <scope>provided</scope>
         </dependency>
         <!-- VaultAPI -->
         <dependency>
@@ -144,14 +143,6 @@
             <scope>system</scope>
             <systemPath>${project.basedir}/libs/LunarClientAPI.jar</systemPath>
         </dependency>
-        <!-- Lombok-->
-        <dependency>
-            <groupId>Lombok</groupId>
-            <artifactId>Lombok</artifactId>
-            <version>LASTED</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/libs/Lombok.jar</systemPath>
-        </dependency>
         <!--PlaceholderAPI-->
         <dependency>
             <groupId>com.github.PlaceholderAPI</groupId>
@@ -161,19 +152,17 @@
         </dependency>
         <!-- ProtocolLib -->
         <dependency>
-            <groupId>me.clip</groupId>
+            <groupId>com.comphenix.protocol</groupId>
             <artifactId>ProtocolLib</artifactId>
-            <version>LASTED</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/libs/ProtocolLib.jar</systemPath>
+            <version>4.4.0</version>
+            <scope>provided</scope>
         </dependency>
         <!-- Lombok -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.22</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/libs/lombok.jar</systemPath>
+            <version>1.18.28</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 
