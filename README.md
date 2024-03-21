@@ -41,7 +41,7 @@ After installing HubCore, leverage its features to manage and enhance your serve
 - Managing chat functionality and Lunar NameTags.
 
 # Dependency
-- Spigot 1.8 - 1.20x
+- Spigot 1.7.10 - 1.8.9x
 - PlaceholderAPI
 - ProtocolLib
 - Vault
