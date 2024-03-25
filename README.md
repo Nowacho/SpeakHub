@@ -2,6 +2,10 @@
 
 This version of SpeakHub, is an old version before it was sold, it is currently obsolete and with multiple bugs, other than that, the HubCore runs perfect.
 
+# Credits
+
+This version of SpeakHub incorporates contributions made by YoSoyByProxx during its development in Hardling before it was sold.
+
 ## Features
 
 - **Cosmetics:** Add particle effects, custom heads, and outfits to enhance player experience.
@@ -24,7 +28,7 @@ This version of SpeakHub, is an old version before it was sold, it is currently 
 
 ## Installation
 
-To install HubCore, follow these simple steps:
+To install SpeakHub, follow these simple steps:
 
 1. Download the installation package from [download](https://github.com/Nowacho/SpeakHub/releases).
 2. Follow the instructions provided in the README file included in the package.
